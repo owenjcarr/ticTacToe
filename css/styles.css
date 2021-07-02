@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#game-container {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+}
+
+.square {
+    display: flex;
+    border: 1px;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+}
+
+#reset-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset {
+    width: 100px;
+    height: 20px;
+}
