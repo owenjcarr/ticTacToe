@@ -80,8 +80,8 @@ const gameBoard = (() => {
     let board = ["", "", "", "", "", "", "", "", ""];
     let isOver = false;
 
-    p1 = Player("player1", "X");
-    p2 = Player("player2", "O");
+    p1 = Player("X", "X");
+    p2 = Player("O", "O");
 
     displayController.setupGame();
 
